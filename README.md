@@ -211,7 +211,7 @@ operator to perform an operation _and_ assign the value of the operation:
 let counter = 0;
 //=> undefined
 
-counter += 10;
+counter += 10; // same as counter = counter + 10
 //=> 10
 
 counter -= 2;
